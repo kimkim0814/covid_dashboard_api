@@ -41,7 +41,7 @@ const Cards: React.FC = () => {
                 start={0}
                 end={daily[daily.length - 1].Recovered}
                 duration={1.5}
-                separator=","
+                separator=",_"
               />
             </Typography>
           </CardContent>
