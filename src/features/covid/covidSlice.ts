@@ -39,4 +39,7 @@ const covidSlice = createSlice({
   },
 });
 
+export const selectDaily = (state: RootState) => state.covid.daily
+export const selectCountry = (state: RootState) => state.covid.country;
+
 export default covidSlice.reducer
